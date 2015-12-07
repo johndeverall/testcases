@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.rules.SpringClassRule;
 import org.springframework.test.context.junit4.rules.SpringMethodRule;
 
 @SpringApplicationConfiguration(SpringMethodRuleHappiness.class)
-public class SpringMethodRuleTestCase {
+public class CalculateResults {
 
 	@Rule
 	public final SpringMethodRule springMethodRule = new SpringMethodRule();
