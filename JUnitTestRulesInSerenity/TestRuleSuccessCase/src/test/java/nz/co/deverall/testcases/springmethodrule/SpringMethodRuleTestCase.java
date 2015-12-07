@@ -17,6 +17,9 @@ public class SpringMethodRuleTestCase {
 
 	@Rule
 	public final SpringMethodRule springMethodRule = new SpringMethodRule();
+
+	@Rule
+	public final MyTestRule myTestRule = new MyTestRule();
 	
 	@ClassRule
 	public static final SpringClassRule SPRING_CLASS_RULE = new SpringClassRule();
